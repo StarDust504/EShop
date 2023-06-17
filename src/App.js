@@ -9,10 +9,14 @@ import humanTop from './humanTop.svg';
 import humanBottom from './humanBottom.svg';
 import cartTop from './cartTop.svg';
 import cartBottom from './cartBottom.svg';
+import dream from './dream.svg';
+import dreamMini from './logo2.svg';
+import logo from './logo.svg';
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <>
+    /*<>
     <nav className="navbar navbar-expand bg-secondary text-light d-flex flex-row justify-content-between" style={{fontSize: 1 + 'em', paddingRight: 5 + '%', paddingLeft: 5 + '%'}}>
       <div className="d-flex flex-row justify-content-around" style={{width: 30 + '%'}}>
         <a className="nav-link" href="#">Контакты</a>
@@ -31,7 +35,7 @@ function App() {
       </div>
     </nav>
     <nav className="navbar container-fluid d-flex flex-row justify-content-around align-items-center border-bottom border-secondary border-opacity-10">
-      <p className="text-secondary" style={{fontSize: 2 + 'em'}}>logo</p>
+      <img src={dreamMini} className="img-fluid" style={{width: 20 + '%'}}></img>
       <form className="d-flex flex-row">
         <button type="button" className="btn btn-secondary rounded-0 d-flex flex-row align-items-center" style={{width: 60 + '%'}}>
           <div className="d-flex flex-column" style={{marginRight: 10 + '%'}}>
@@ -61,7 +65,13 @@ function App() {
         <p className="d-flex flex-row align-items-center" style={{margin: 0}}>5000 &#8381; / 5 шт.</p>
       </div>
     </nav>
+    <div className="d-flex justify-content-center">
+      <img src={dream} className="img-fluid"></img>
+    </div>
+    
     </>
+    */
+    <Footer/>
   );
 }
 
